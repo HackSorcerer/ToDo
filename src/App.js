@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <h1>ToDo List</h1>
       <form onSubmit={saveTodo}>
-        <input type="text" name = 'toname' /> <button >Save</button>
+        <input type="text" name = 'toname' placeholder='Enter the Todo'/> <button >Save</button>
       </form>
       <div className='outerdiv'>
         <ul>
